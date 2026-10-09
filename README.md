@@ -93,41 +93,37 @@ Only include additional permissions when the implemented features require them.
 The screenshots below were supplied by the student and are included in this repository package.
 
 ### 7.1 Home Screen
-
-![WebView Pro home screen](screenshots/01_home_screen.jpg)
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 24 59 PM" src="https://github.com/user-attachments/assets/b42f1741-32e3-4cfa-9237-a96fa373d594" />
 
 ### 7.2 Wikipedia Home Page in WebView
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 00 PM" src="https://github.com/user-attachments/assets/9db31ba1-b718-4894-9509-5fea683c4f08" />
 
-![Wikipedia home page displayed in WebView](screenshots/02_wikipedia_home.jpg)
+### 7.3 Google Search in WebView
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 01 PM (1)" src="https://github.com/user-attachments/assets/5292f5be-22ee-4eaf-982e-6f5c7813c0f2" />
 
-### 7.3 WebView Article and Browser Controls
 
-![Article displayed inside WebView](screenshots/03_webview_article.jpg)
+### 7.4 GitHub Website in WebView
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 01 PM" src="https://github.com/user-attachments/assets/b95afa2f-b7d9-4933-baa9-03246b6f2d0b" />
 
-### 7.4 Google Search in WebView
 
-![Google search displayed in WebView](screenshots/04_google_search.jpg)
+### 7.5 About Dialog — Name and USN
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 00 PM (3)" src="https://github.com/user-attachments/assets/8bb97e06-c1bc-4bd0-813e-4f9aa9477818" />
 
-### 7.5 GitHub Website in WebView
+### 7.6 Settings Screen
+<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 00 PM (2)" src="https://github.com/user-attachments/assets/2165eeb6-ab2d-422b-9eeb-0824cb09b15f" />
 
-![GitHub website displayed in WebView](screenshots/05_github_webview.jpg)
-
-### 7.6 About Dialog — Name and USN
-
-![About dialog showing student name and USN](screenshots/06_about_student_usn.jpg)
-
-### 7.7 Settings Screen
-
-![WebView Pro settings screen](screenshots/07_settings_screen.jpg)
 
 ## 8. Test Cases
 
 | Test Case | Test Steps | Expected Result | Evidence |
 |---|---|---|---|
-| **TC1: Home screen display** | Launch WebView Pro. | The home screen displays the app branding, URL/search field, Open Website button, quick-access cards, and feature list. | [Home screen](screenshots/01_home_screen.jpg) |
-| **TC2: Open a website** | Tap a quick-access website or enter a URL and open it. | The selected website loads inside the app's WebView. | [Wikipedia home](screenshots/02_wikipedia_home.jpg), [article](screenshots/03_webview_article.jpg), [Google](screenshots/04_google_search.jpg), [GitHub](screenshots/05_github_webview.jpg) |
-| **TC3: Display student information** | Open About / USN. | The About dialog displays the app name, student name, USN, and course/university information. | [About and USN](screenshots/06_about_student_usn.jpg) |
-| **TC4: Settings screen** | Open Settings. | The settings screen displays available WebView and browsing-data options. | [Settings](screenshots/07_settings_screen.jpg) |
+| **TC1: Home screen display** | Launch WebView Pro. | The home screen displays the app branding, URL/search field, Open Website button, quick-access cards, and feature list. | <img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 24 59 PM" src="https://github.com/user-attachments/assets/7b0a8c36-a4f1-4528-9405-dec4e5cf3a93" /> |
+| **TC2: Open a website** | Tap a quick-access website or enter a URL and open it. | The selected website loads inside the app's WebView. |  [article](screenshots/03_webview_article.jpg)<img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 01 PM (1)" src="https://github.com/user-attachments/assets/3595d0f2-1b46-473a-abab-aba0a63f14ff" />
+, [Google](screenshots/04_google_search.jpg), <img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 01 PM" src="https://github.com/user-attachments/assets/60e5b68d-0b84-41d1-8623-36c3bddd2862" />
+ |
+| **TC3: Display student information** | Open About / USN. | The About dialog displays the app name, student name, USN, and course/university information. | <img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 00 PM (3)" src="https://github.com/user-attachments/assets/870fc508-19a6-425f-976b-01b35a41adb5" /> |
+| **TC4: Settings screen** | Open Settings. | The settings screen displays available WebView and browsing-data options. | <img width="720" height="1600" alt="WhatsApp Image 2026-10-09 at 10 25 00 PM (2)" src="https://github.com/user-attachments/assets/d6fc7f1a-63be-436d-a8b1-afaefce44c17" />
+ |
 
 **USN requirement:** Test Case 3 includes the student's name and USN in the supplied screenshot.
 

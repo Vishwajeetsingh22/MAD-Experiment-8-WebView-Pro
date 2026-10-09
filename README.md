@@ -8,6 +8,7 @@
 - **University:** Jain (Deemed-to-be University), Bengaluru
 - **Department/Lab:** Mobile Application Development (MAD)
 - **Experiment:** 8
+- **GitHub Repository:** [MAD-Experiment-8-WebView-Pro](https://github.com/Vishwajeetsingh22/MAD-Experiment-8-WebView-Pro)
 
 ## 1. Aim
 
@@ -32,15 +33,19 @@ The supplied screenshots document the application's home screen, WebView browsin
 ## 4. Concepts and Theory
 
 ### Android Options Menu
+
 An options menu presents actions that users can select to perform common tasks, such as opening settings, viewing information, or exiting an application.
 
 ### WebView
+
 `WebView` is an Android UI component that renders web content inside an application. It can be configured with a `WebViewClient` to keep ordinary web navigation within the app. A `WebChromeClient` can support browser-related features such as page-loading progress and file chooser interactions.
 
 ### Navigation Controls
+
 Back, forward, reload, and URL-entry controls make it possible to navigate between web pages from the application's browser interface.
 
 ### Internet Permission
+
 Online browsing requires the following permission in `AndroidManifest.xml`:
 
 ```xml
@@ -154,7 +159,8 @@ WebViewPro/
 │   ├── 05_github_webview.jpg
 │   ├── 06_about_student_usn.jpg
 │   └── 07_settings_screen.jpg
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ## 10. How to Run
@@ -172,14 +178,34 @@ WebViewPro/
 From the root of the actual Android project, place this README at `README.md` and add the screenshots folder. Then run:
 
 ```bash
-git add README.md screenshots/
-git commit -m "Add Experiment 8 README and screenshots"
+git add README.md screenshots/ LICENSE
+git commit -m "Update Experiment 8 documentation and license"
 git push origin main
 ```
 
-If the screenshots are already tracked or the README is in a separate documentation package, avoid creating duplicate copies unnecessarily. Confirm the repository's default branch before pushing.
+If you have not created a `LICENSE` file, remove `LICENSE` from the `git add` command or create the license file first. If the screenshots are already tracked, avoid creating duplicate copies unnecessarily. Confirm the repository's default branch before pushing.
 
-## 12. Result
+## 12. Author
+
+**Vishwajeet Singh**
+
+- **USN:** 25MCAR0219
+- **Programme:** Master of Computer Applications (MCA)
+- **Subject:** Mobile Application Development (MAD)
+- **University:** Jain (Deemed-to-be University), Bengaluru
+- **Experiment:** 8 — Implement Menus and WebView in an Android Application
+- **GitHub:** [Vishwajeetsingh22](https://github.com/Vishwajeetsingh22)
+- **Project Repository:** [MAD-Experiment-8-WebView-Pro](https://github.com/Vishwajeetsingh22/MAD-Experiment-8-WebView-Pro)
+
+## 13. License
+
+This project is licensed under the **MIT License**. You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions of the MIT License.
+
+See the [`LICENSE`](LICENSE) file in this repository for the complete license text.
+
+> Include the MIT license only if you intend to publish your project under those terms. If you do not want to grant these permissions, remove this section and the `LICENSE` file.
+
+## 14. Result
 
 The WebView Pro application demonstrates an Android interface for menu-based navigation and in-app web browsing using WebView. The supplied output screenshots show the home screen, website loading, browser navigation, About dialog with student name and USN, and settings screen.
 

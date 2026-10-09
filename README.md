@@ -197,15 +197,7 @@ If you have not created a `LICENSE` file, remove `LICENSE` from the `git add` co
 - **GitHub:** [Vishwajeetsingh22](https://github.com/Vishwajeetsingh22)
 - **Project Repository:** [MAD-Experiment-8-WebView-Pro](https://github.com/Vishwajeetsingh22/MAD-Experiment-8-WebView-Pro)
 
-## 13. License
-
-This project is licensed under the **MIT License**. You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions of the MIT License.
-
-See the [`LICENSE`](LICENSE) file in this repository for the complete license text.
-
-> Include the MIT license only if you intend to publish your project under those terms. If you do not want to grant these permissions, remove this section and the `LICENSE` file.
-
-## 14. Result
+## 13. Result
 
 The WebView Pro application demonstrates an Android interface for menu-based navigation and in-app web browsing using WebView. The supplied output screenshots show the home screen, website loading, browser navigation, About dialog with student name and USN, and settings screen.
 
